@@ -5,7 +5,7 @@ const app = Vue.createApp({
             product: 'Socks',
             image: './assets/images/socks_green.jpg',
             // url: 'www.telegraaf.nl',
-            inStock: true,
+            inStock: false,
             // inventory: 11,
             // onSale: true,
             details: ['50% cotton', '30% wool', '20% polyester'],
