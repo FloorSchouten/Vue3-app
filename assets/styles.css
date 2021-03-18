@@ -79,8 +79,8 @@ li {
   font-size: 18px;
 }
 
-.nav-bar {
-  background: red;
+.top-bar {
+  background: #F5AF19;
   height: 60px;
   margin-bottom: 25px;
   -webkit-box-shadow: 0px 2px 15px -12px rgba(0, 0, 0, 0.57);
@@ -88,9 +88,14 @@ li {
   box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.57);
 }
 
-.out-of-stock-img {
-  opacity:0.5
+.nav-bar-vert {
+  
+  background: red;
+  width: 160px;
+  height: auto;
+  
 }
+
 
 p {
   font-size: 22px;
