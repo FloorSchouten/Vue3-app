@@ -4,7 +4,11 @@ body {
   font-family: tahoma;
   color: #282828;
 }
+.app {
+  height: auto;
 
+}
+/* 
 .button {
   margin: 30px;
   background-color: #39495c;
@@ -44,7 +48,7 @@ body {
 .disabledButton {
   background-color: #d8d8d8;
   cursor: not-allowed;
-}
+} */
 
 h1 {
   font-size: 50px;
@@ -55,13 +59,13 @@ h3 {
 }
 
 img {
-  border: 2px solid #d8d8d8;
+  /* border: 2px solid #d8d8d8; */
   width: 70%;
   margin: 40px;
   padding: 15px;
-  -webkit-box-shadow: 0px 2px 15px -12px rgba(0, 0, 0, 0.57);
+  /* -webkit-box-shadow: 0px 2px 15px -12px rgba(0, 0, 0, 0.57);
   -moz-box-shadow: 0px 2px 15px -12px rgba(0, 0, 0, 0.57);
-  box-shadow: 2px 15px -12px rgba(0, 0, 0, 0.57);
+  box-shadow: 2px 15px -12px rgba(0, 0, 0, 0.57); */
 }
 
 input {
@@ -78,23 +82,44 @@ label {
 li {
   font-size: 18px;
 }
-
+.logo {
+  display: flex;
+  width: 300px;
+  height: 300px;
+  margin-left: -45px;
+  margin-top: -60px;
+}
+.logout {
+  display: flex;
+  width: 300px;
+  height: 300px;  
+}
+.power {
+  display: flex;
+  width: 150px;
+  height: 150px;
+}
 .top-bar {
-  background: #F5AF19;
-  height: 60px;
+  display: flex;
+  /* position: absolute; */
+  justify-content: space-between;
+  background: linear-gradient(90deg, #ffa40000 0%, red 100%);
+  height: 170px;
+  width: auto;
   margin-bottom: 25px;
-  -webkit-box-shadow: 0px 2px 15px -12px rgba(0, 0, 0, 0.57);
+  
+  /* -webkit-box-shadow: 0px 2px 15px -12px rgba(0, 0, 0, 0.57);
   -moz-box-shadow: 0px 2px 15px -12px rgba(0, 0, 0, 0.57);
-  box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.57);
+  box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.57); */
 }
 
-.nav-bar-vert {
+/* .nav-bar-vert {
   
   background: red;
   width: 160px;
   height: auto;
   
-}
+} */
 
 
 p {

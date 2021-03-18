@@ -8,14 +8,26 @@
    </head>
   <body>
     <div id="app">
-      <div class="nav-bar">
-      
-      
-  
+      <div class="top-bar">
+          <div class="logo">
+            <img src="assets/images/logo-cow.png">
+          </div>
+          <div class="logout">
+            <p>logout</p>
+            <img class="power" href="https://www.flaticon.com/free-icon/power-button_545709">
+          </div>
+      </div>
+    </div>
+        
+        
  
   </div>
-
+  <!--import app-->
     <script src="./main.js"></script>
+     <!--import components-->
+     <script src="./components/Home.js"></script> 
+     <script src="./components/About.js"></script> 
+     <script src="./components/Contact.js"></script> 
     <script>
       const mountedApp = app.mount('#app')
     </script>

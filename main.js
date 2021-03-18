@@ -4,7 +4,7 @@ const app = Vue.createApp({
             menu: [
                 {
                     href: '/Home',
-                    title: 'Dashboard',
+                    title: 'Home',
                 },
                 {
                     href: '/About',
